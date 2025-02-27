@@ -2,7 +2,7 @@
 
 
 
-## Getting started
+## Premiere ouverture
 
 Si vous ouvrez le projet dans unity pour la premiere fois, suivez ces instructions:
 - 1 Dans la barre d'outil (en haut a gauche)
