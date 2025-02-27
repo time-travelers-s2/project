@@ -28,7 +28,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_6000_0_32;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CROSS_PLATFORM_INPUT;AIGAMEDEV;GAIA_2_PRESENT;UPPipeline;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_6000_0_32;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CROSS_PLATFORM_INPUT;AIGAMEDEV;GAIA_2_PRESENT;UPPipeline;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -59,434 +59,39 @@
     <UnityVersion>6000.0.32f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\Berber\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\Stamper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaHDRPRuntimeUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\Vector2Double.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\LocationSystem.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseLib.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OrthographicBake.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\AQUASWaterSet.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\TooltipManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\GaiaCompatiblePackage.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\ScreenShotter.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\API\DemoAPIController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\ProgressBar.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\GaiaPlanarReflectionsHDRP.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\GaiaSceneCullingProfile.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\PerlinNoise.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\TerrainScene.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\ParentScaler.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\DemoClient\Scripts\WorldSelectionConfiguration.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\FractalGenerator.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\CustomEditorUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\XorshiftPlus.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Template.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\GaiaWaterProfile.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\DemoClient\Scripts\WorldSelectionUI.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\FloraUtils.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Scripts\YOLOXOpenVINO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\GeneratedShaderInfo.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseBlitShaderGenerator.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnRule.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseShaderGenerator.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\BuildConfig.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\GaiaUnderwaterEffects.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoTreeSO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\WorldMapStampToken.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\ISpawnExtension.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Scripts\EditorOpenVINOYOLOX.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoModePanelButton.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\HeightMap.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoDNA.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\DemoClient\Scripts\WorldSelectionEntryUI.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\WorldMapStampSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseSettingsAssetEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\GaiaDefaults.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\InputRenderTexture.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\ColorPreviewSync.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\DesktopTreesPackage.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\GaiaLightingProfile.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\CountrySidePack.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaURPRuntimeUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\MaskMapExportSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\ThirdPersonController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\UndoRedoOperationSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\WorldBiomeMasks.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\AdvancedWaterUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\GaiaMultiTerrainOperation.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Shaders\Scripts\ShaderUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\Tasks\QuickLightingBakeTask.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\CustomGaiaController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\UIControllerSelection.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\EditorVideoManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\WorldCreationSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\DesktopGroundCoverPackage.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\QuadTree.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoModeProfile.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\FractalType.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\FbmFractalType.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\VideoManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Utility\LerpControlledBob.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\ExportMaskMapOperationSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\PW_Camera_Refraction.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ScanningSystem\Scanner.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\EditorInferenceManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaHierarchyUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\SpawnOperationSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\TerrainSceneStorage.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaStopwatchDataset.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\ListToPopupDrawer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Growth.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\UserFiles.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceVisualiser.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\UIConfiguration.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\AutoDepthOfField.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoWorldBiomeMask.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\StyleTransfer\Scripts\EditorOpenVINOStyleTransfer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\CommandBufferManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\SpawnProgressBar.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\BiomeController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\GaiaTaskBase.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\VoronoiNoise.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\HDRP\HDRPTextureHelper.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\Barracuda\InferenceFeatures\StyleTransfer\Scripts\StyleTransferBarracuda.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\VillageExteriorsKit.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\DimensionFlags.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoTree.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\BakedMaskCache.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\TimedInstance.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\GaiaSession.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Attributes\PreviewTextureAttribute.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\ScreenshotSavedManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\PWAddressablesConfig.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\ExportTerrainSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\SimpleCameraLayerCulling.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\StamperSettings.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\VideoScreenManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaMessages.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\ObjectDetection\BoundingBoxManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoDetail.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\PWSkyPostProcessingManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Utility\FOVKick.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InferenceManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\OpenInFileBrowser.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InferenceFeatures\InferenceFeatureVision.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\Built-in\CameraTextureHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\API\APITest.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\GaiaLightingProfileValues.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoModeButtonManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoMode.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\ReflectionMasker.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\Barracuda\InferenceFeatures\StyleTransfer\Scripts\InferenceFeatureBarracudaStyleTransfer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoModeUIHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MultiTerrainSystem\TerrainLoaderManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FreeCamera.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InferenceFeatures\InferenceFeature.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseSettingsFactory.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\GaiaOperation.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\EditorInputRenderTexture.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\MathD.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Erosion\TerrainToolUtility.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Location System\LocationSystemScriptableObject.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\Post Processing Converter\PostProcessingConverter.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\PWS_WaterSystem.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\HlslDescriptions.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\CollisionMask.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaDirectories.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseType.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\DraggableUIWindow.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\GaiaTask.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnerSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ScanningSystem\BinaryReaderMac.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\MassiveCloudGX.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\TemplateFrame.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObject.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\GaiaShaderID.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Erosion\IBrushUIGroup.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InferenceModels\ModelOpenVINO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\PWAddressables.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseComponentEditor.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\BoundsDouble.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoTexture.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Task System\Tasks\BakeLightmapsTask.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InferenceModels\EditorModelOpenVINO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\uConstruct.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\Reflections\GaiaPlanarReflections.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoTextureSO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoStamp.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\Interfaces\IOpenVINOInferenceFeature.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\ScaleTexture.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\TerrainDetailOverwrite.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\UnityHeightMap.cs" />
+    <Compile Include="Assets\BERANGER\Prefab - knight\OnFinishKnight.cs" />
+    <Compile Include="Assets\BERANGER\Prefab - knight\WeaponSwitching.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\SceneProfile.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\ObjectDetection\ObjectDetectionClassList.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\FlattenOperationSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\HDRPDensityVolumeComponent.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InferenceFeatures\InferenceFeatureObjectDetection2D.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\GaiaSceneLighting.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\GaiaConstants.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnExtensions\DebugSpawnExtension.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\ReflectionProbeUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoneFractalType.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\BiomeControllerSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\WorldDesigner.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\WindSystem\WindManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnExtensions\GeNaProSpawnExtension.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\WorldMapSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnCriteria.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\GaiaSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\ImageProcessing.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoModeUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\Spawner.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\DisableUnderwaterFXTrigger.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\PW_Camera_Depth.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\GaiaMaintenanceProfile.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\GaiaExtensionManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoDetailSO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\RuntimeStamper.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\Utils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\GaiaWaterProfileValues.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\MaskedTerrainMesh.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\TooltipProfile.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoProbe.cs" />
-    <Compile Include="Assets\Procedural Worlds\Frameworks\PWAddressables1\PWAddressableContentPackConfig.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\GaiaPostProcessBiome.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\CarControllerSetup.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\Tenkoku.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\ValueNoise.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\RidgeNoise.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\StyleTransfer\Scripts\InferenceFeatureOpenVINOStyleTransfer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\BillowNoise.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Scripts\InferenceFeatureOpenVINOYOLOX.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnerGroup.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnInfo.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaStopwatchControl.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\AutoAssignTakePhotoEvent.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\WorldGenerator.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\FloraLOD.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\HDRPDensityVolumeController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\FrameRateManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\TooltipTrigger.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\FeatureTypeChance.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\WaterFlowMap.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\WebcamManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\ClearOperationSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\VolumetricFog.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\StyleTransfer\Scripts\StyleTransferOpenVINO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\GaiaWorldManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaUtils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaStopwatch.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoTerrainModifierStamp.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\Singleton.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\API\GaiaAPI.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Erosion\TerrainToolGUIHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\ImageMask.cs" />
+    <Compile Include="Assets\BERANGER\Prefab - knight\knightCamController.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Lighting System\GaiaGlobal.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\MaskSystem\GaiaNoiseSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\BaseTerrainSettings.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaSplatPrototype.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseComponent.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoGameObjectSO.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\GaiaSessionManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\GaiaCompatiblePublisher.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\DistingoGaiaExtension.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\PhotoModeColorPicker.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\BiomePreset.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\NoiseSettingsGUI.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Utility\CurveControlledBob.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaSceneInfo.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\Tooltip.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SessionSystem\RemoveNonBiomeResourcesSettings.cs" />
+    <Compile Include="Assets\BERANGER\Prefab - knight\knightCombat.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\ResourceProtoGeNaSpawner.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnExtensionInfo.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\FollowPlayerSystem.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\TerrainHelper.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\Vector3Double.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Water System\HDRPUnderwaterFog.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\StampingSystem\WorldMap.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\TreeManager.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\SimplexNoiseGenerator.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\Noise\API\NoiseUtils.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\InputSources\HDRP\InputRTParameter.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\UnityPipelineProfile.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\InferenceEngines\Barracuda\InferenceFeatures\StyleTransfer\Scripts\EditorBarracudaStyleTransfer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\SpawningSystem\SpawnRuleExtension.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ResourcesSystem\GaiaResource.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\Compatible\GameTexturesCom.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\Utils.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\GaiaSceneWater.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Utils\GaiaScriptOrder.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\Scene Managment\GaiaScenePlayer.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
-    <Compile Include="Assets\Procedural Worlds\Gaia\Scripts\ValueAdds\CameraController.cs" />
-    <Compile Include="Assets\AIGamedevToolkit\Scripts\ObjectDetection\COCOClassList.cs" />
+    <Compile Include="Assets\BERANGER\Prefab - knight\knightController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\openvino_intel_cpu_plugin.dll" />
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\openvino_auto_plugin.dll" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\opencv_core454.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_SkyboxCubemap.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\NatureManufacture\_Readme.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\PowerOf.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Models\yoloxNanoCOCO\yolox_10.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Scripts\Unity\Terrain Tools\license.txt" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\openvino_intel_gpu_plugin.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Implementation\RidgeImpl.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\None\Billow.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\UnpackUnityTerrain.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Models\yoloxTinyCOCO\yolox_10.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\GetTerrainHeights.compute" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\README.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterGrowShrink.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\tbb_preview.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterHeightTransform.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\Generated\NoiseFillNone.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\NoiseCommon.hlsl" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\opencv_highgui454.dll" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Object.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\openvino_ir_frontend.dll" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\None\Voronoi.hlsl" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Models\yoloxLargeCOCO\yolox_10.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\Generated\NoiseFillFbm.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\OpenVINO_Style_Transfer_DLL.dll" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\plugins.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Procedural Worlds\Flora\Content Resources\Shaders\PW_FloraIncludes_HDRP.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Standard Shaders\StampPreview.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_Water_Vars.cginc" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\Barracuda\InferenceFeatures\StyleTransfer\Shaders\ImageProcessing.compute" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\StyleTransfer\Models\mesh-shader_fp16.xml" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\tbbmalloc.dll" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Models\yoloxSmallCOCO\yolox_10.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_Water_FuncsShared.cginc" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Synty Studios\GeNa Spawners\Readme.txt" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\NoisePreview.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Turboscalpeur\Readme.txt" />
     <None Include="Assets\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\TreeCollisionMaskBaking.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_General_Forward.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\FBM\Billow.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\opencv_imgcodecs454.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterImageMask.shader" />
-    <None Include="Assets\Procedural Worlds\Flora\Content Resources\Shaders\PW_FloraIncludes.hlsl" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Global.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterStrengthTransform.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\FBM\Ridge.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\3DForge\Documents\Village Exteriors Kit v1.2.1 - user guide.txt" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_Water_Funcs.cginc" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_General_Deferred.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterMixHeight.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\None\Perlin.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Implementation\PerlinImpl.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\None\Ridge.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_Water_Under.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Implementation\BillowImpl.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Gaia_License_Info.txt" />
-    <None Include="Assets\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\SmoothHeight.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_GeneralVars.cginc" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\Generated\NoiseBlitNone.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_GeneralWind.cginc" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Standard Shaders\license.txt" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Shaders\ImageProcessing.compute" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Synty Studios\Readme.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterSlopeMask.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\StyleTransfer\Shaders\ImageProcessing.compute" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_GetSnowGlobal.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\GaiaXtnHeader.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterDistanceMask.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\None\Value.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\SpawnStamps.compute" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\tbb.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_HDRP_MainLight.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterHeightMask.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Implementation\ValueImpl.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\FBM\Perlin.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\SimulateSpawnResult.compute" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\StyleTransfer\Models\mosaic_pop_1e3.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\CombineCollisionMasks.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Preview.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain.cginc" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_URP_MainLight.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Noise.hlsl" />
-    <None Include="Assets\Procedural Worlds\Flora\Content Resources\Shaders\PW_FloraWInd.cginc" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_Water.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\Generated\NoiseBlitFBM.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Scripts\Photo Mode\Fonts\OFL.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\license.txt" />
-    <None Include="Assets\Procedural Worlds\Flora\Content Resources\Shaders\PW_FloraIncludes_URP.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_GeneralWindHDRP.cginc" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\InferenceFeatures\YOLOX\Models\yoloxMediumCOCO\yolox_10.xml" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\FBM\Voronoi.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Standard Shaders\BaseOperation.shader" />
-    <None Include="Assets\GreekPack1Lite\README.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Gaia_ReadMe.txt" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\tbbbind.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_SkyboxProcedural.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\opencv_imgproc454.dll" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\OpenVINO_YOLOX_DLL.dll" />
+    <None Include="Assets\FogMaterial.shader" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Object.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_ChannelCombine.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\GetPreviewHeights.compute" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\PackUnityTerrain.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Scripts\ExtensionSystem\GaiaXtnFooter.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\Implementation\VoronoiImpl.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Terrain Operations\FilterFlipY.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_Water_CameraNormals.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\openvino.dll" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\NoiseImpl.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Standard Shaders\SpawnerPreview.shader" />
     <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\Unity\Terrain Tools\NoiseLib\FBM\Value.hlsl" />
-    <None Include="Assets\Procedural Worlds\Flora\Flora_ReadMe.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Shaders\PW General\PW_GeneralFuncs.cginc" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Procedural Worlds\Gaia\Asset Samples\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
-    <None Include="Assets\AIGamedevToolkit\InferenceEngines\OpenVINO\Plugins\x86_64\tbb12.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -959,10 +564,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="PWCommon5DLL">
-      <HintPath>Assets\Procedural Worlds\Frameworks\Common5\PWCommon5DLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -1493,6 +1094,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
@@ -1529,12 +1134,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections">
@@ -1559,6 +1172,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
@@ -1627,10 +1244,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
