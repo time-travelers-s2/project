@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: be6e39cf196f146d5be72fbefb18ed75
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 104112
+  packageName: POLY STYLE - Vegetation Pack
+  packageVersion: 1.0
+  assetPath: Assets/POLY STYLE - Vegetation Pack/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader
+  uploadId: 217233

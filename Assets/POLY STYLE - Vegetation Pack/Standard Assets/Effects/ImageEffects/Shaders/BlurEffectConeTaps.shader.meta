@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 57e6deea7c2924e22a5138e2b70bb4dc
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 104112
+  packageName: POLY STYLE - Vegetation Pack
+  packageVersion: 1.0
+  assetPath: Assets/POLY STYLE - Vegetation Pack/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader
+  uploadId: 217233

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: acd613035ff3e455e8abf23fdc8c8c24
+ShaderImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 104112
+  packageName: POLY STYLE - Vegetation Pack
+  packageVersion: 1.0
+  assetPath: Assets/POLY STYLE - Vegetation Pack/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader
+  uploadId: 217233
