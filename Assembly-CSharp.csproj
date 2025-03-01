@@ -78,19 +78,24 @@
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
+    <None Include="Assets\EmaceArt\NecroPoly Free\Thanks\Thanks.txt" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Object.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\EmaceArt\Slavic World Free\Plugin\Grass.shader" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
+    <None Include="Assets\EmaceArt\Slavic World Free\URP_Support\URP Info.txt" />
     <None Include="Assets\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Global.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+    <None Include="Assets\EmaceArt\Slavic World Free\Thanks and checkout this\Info.txt" />
     <None Include="Assets\FogMaterial.shader" />
     <None Include="Assets\SyntyStudios\PolygonPrototype\Shaders\Prototype_Glass_Object.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
+    <None Include="Assets\EmaceArt\NecroPoly Free\Thanks.txt" />
     <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
   </ItemGroup>
   <ItemGroup>
