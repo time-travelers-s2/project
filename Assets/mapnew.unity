@@ -642,24 +642,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1450660313}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
+      propertyPath: grounded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1451905771}
+    - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
+      propertyPath: jumpForce
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: maxHealth
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: rollSpeed
-      value: 18
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: walkSpeed
-      value: 14
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
+      propertyPath: groundDrag
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: sprintSpeed
-      value: 20
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
+      propertyPath: groundDistance
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: whatIsGround.m_Bits
