@@ -66,24 +66,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Prefab - knight\knightCamController.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Prefab - knight\OnFinishKnight.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Prefab - knight\knightCombat.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\BERANGER\Characters\HealthBarController.cs" />
+    <Compile Include="Assets\BERANGER\Characters\OnFinishEnemy.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-    <Compile Include="Assets\BERANGER\Prefab - knight\OnFinishKnight.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
-    <Compile Include="Assets\BERANGER\Prefab - knight\WeaponSwitching.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Prefab - knight\WeaponSwitching.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Prefab - knight\knightController.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
@@ -98,20 +103,20 @@
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Character.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
-    <Compile Include="Assets\BERANGER\Prefab - knight\knightCamController.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
-    <Compile Include="Assets\BERANGER\Prefab - knight\knightCombat.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
     <Compile Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
-    <Compile Include="Assets\BERANGER\Prefab - knight\knightController.cs" />
+    <Compile Include="Assets\BERANGER\Characters\Prefab - barbarian\WeaponScript.cs" />
+    <Compile Include="Assets\BERANGER\Characters\EnemyController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
