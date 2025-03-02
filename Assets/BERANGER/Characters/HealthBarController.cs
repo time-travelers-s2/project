@@ -6,7 +6,6 @@ using UnityEngine.UI;
 This code was made using these tutorials:
 Brackeys - (How to make a HEALTH BAR in Unity!) https://www.youtube.com/watch?v=BLfNP4Sc_iA
 
-and some ChatGPT
 and some magic by Beranger
 */
 

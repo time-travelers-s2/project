@@ -14,7 +14,6 @@ This code was made using these tutorials:
 * Health:
     Brackeys - (MELEE COMBAT in Unity) https://www.youtube.com/watch?v=sPiVz1k-fEs
 
-and some (maybe a lot of) ChatGPT
 and some magic by Beranger
 */
 public class knightController : MonoBehaviour, Character

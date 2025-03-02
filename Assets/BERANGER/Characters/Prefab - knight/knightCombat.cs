@@ -7,7 +7,6 @@ using UnityEngine;
 This code was made using these tutorials:
 Brackeys - (MELEE COMBAT in Unity) https://www.youtube.com/watch?v=sPiVz1k-fEs
 
-and some ChatGPT
 and some magic by Beranger
 */
 

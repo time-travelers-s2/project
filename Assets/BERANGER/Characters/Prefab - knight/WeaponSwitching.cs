@@ -6,7 +6,6 @@ using System.Collections.Generic;
 This code was made using these tutorials:
 Brackeys - https://www.youtube.com/watch?v=Dn_BUIVdAPg
 
-and some (maybe a lot of) ChatGPT
 and some magic by Beranger
 */
 public class WeaponSwitching : MonoBehaviour

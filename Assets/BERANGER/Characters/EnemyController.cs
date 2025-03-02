@@ -9,7 +9,6 @@ Dave / GameDevelopment - https://www.youtube.com/watch?v=UjkSFoLxesw
 
 
 
-and some ChatGPT
 and some magic by Beranger
 */
 
