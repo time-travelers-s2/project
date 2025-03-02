@@ -659,19 +659,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: rollSpeed
-      value: 26
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: walkSpeed
-      value: 21
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: groundDrag
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: sprintSpeed
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 503449239250090603, guid: 8416a465165b1f440a32c63a43d7947a, type: 3}
       propertyPath: groundDistance
