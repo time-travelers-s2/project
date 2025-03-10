@@ -9,13 +9,17 @@ Brackeys - (How to make a HEALTH BAR in Unity!) https://www.youtube.com/watch?v=
 and some magic by Beranger
 */
 
-
 public class HealthBarController : MonoBehaviour
 {
     public Slider slider;
     public Gradient gradient;
     public Image fill;
 
+    public void setup(int maxHealth, int health)
+    {
+        setMaxHealth(maxHealth);
+        setHealth(health);
+    }
     public void setMaxHealth(int maxHealth)
     {
         slider.maxValue = maxHealth;

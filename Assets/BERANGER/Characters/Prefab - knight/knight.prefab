@@ -279,15 +279,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0efd18f83ade7b14ab2fdff3c8c233a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 78.26106
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0efd18f83ade7b14ab2fdff3c8c233a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8506248
+      value: 1.8506255
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0efd18f83ade7b14ab2fdff3c8c233a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -27.430305
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0efd18f83ade7b14ab2fdff3c8c233a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -466,7 +466,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2704432127290600439}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 8
   m_Drag: 0.5
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -500,21 +500,22 @@ MonoBehaviour:
   maxHealth: 40
   currentHealth: 0
   defaultDamage: 10
-  walkSpeed: 10
-  sprintSpeed: 15
+  walkSpeed: 20
+  sprintSpeed: 40
   rollSpeed: 15
   groundDrag: 1
   canMove: 1
-  jumpForce: 25
+  jumpForce: 35
   jumpCooldown: 0.4
   airMultiplier: 0.4
+  canJump: 0
   jumpKey: 32
   sprintKey: 304
   rollKey: 101
   whatIsGround:
     serializedVersion: 2
     m_Bits: 512
-  groundDistance: 0.1
+  groundDistance: 0.3
   grounded: 1
   maxSlopeAngle: 45
   dodgeForce: 30
@@ -523,7 +524,6 @@ MonoBehaviour:
   orientation: {fileID: 1811533469058480235}
   kcc: {fileID: 0}
   healthBar: {fileID: 0}
-  state: 0
 --- !u!114 &8277022846638704388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,7 +541,7 @@ MonoBehaviour:
   attackPoint: {fileID: 875358867270773262}
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16384
   damage: 0
   delayBetweenAttacks: 0.5
 --- !u!4 &3369750373613908301 stripped

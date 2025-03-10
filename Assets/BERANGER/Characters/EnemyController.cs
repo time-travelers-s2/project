@@ -2,12 +2,11 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEditor.Callbacks;
 
 /*
 This code was made using these tutorials:
 Dave / GameDevelopment - https://www.youtube.com/watch?v=UjkSFoLxesw
-
-
 
 and some magic by Beranger
 */
@@ -19,6 +18,7 @@ public class EnemyController : MonoBehaviour, Character
     public Transform player;
     public NavMeshAgent agent;
     private NavMeshPath mPath;
+    public FloatingHealthBar healthBar;
 
     [Header("Movement")]
     public float walkSpeed;
@@ -39,6 +39,7 @@ public class EnemyController : MonoBehaviour, Character
     public LayerMask playerLayers;
     private bool isAttacking = false; // Prevents multiple hits per frame
     public WeaponScript weapon;
+    public float knockback;
 
 
     // Distances
@@ -72,6 +73,7 @@ public class EnemyController : MonoBehaviour, Character
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.setup(maxHealth, currentHealth);
 
         weapon.damage = damage;
         weapon.playerLayer = playerLayers;
@@ -90,7 +92,24 @@ public class EnemyController : MonoBehaviour, Character
         }
         Debug.Log(currentHealth);
 
+        testing();
+
     }
+
+    private void testing()
+    {
+        Renderer enemyRenderer = GetComponentInChildren<Renderer>();
+
+        if (enemyRenderer != null)
+        {
+            Debug.Log("Renderer found: " + enemyRenderer.name);
+        }
+        else
+        {
+            Debug.LogWarning("No Renderer found on this object!");
+        }
+    }
+
 
     IEnumerator StartPatrolWithDelay(float delay)
     {
@@ -265,9 +284,11 @@ public class EnemyController : MonoBehaviour, Character
 
     public void TakeDamage(int damage)
     {
-        ChangeAnimation(Hit);
+        ChangeAnimation(Hit); 
+        StartCoroutine(FlickerRed());
         currentHealth -= damage;
-        Debug.Log(currentHealth);
+        healthBar.setHealth(currentHealth);
+        //Debug.Log(currentHealth);
         if (currentHealth <= 0)
         {
             Dead();
@@ -277,6 +298,49 @@ public class EnemyController : MonoBehaviour, Character
     {
         Destroy(gameObject);    
     }
+
+
+
+    IEnumerator FlickerRed()
+    {
+        yield return new WaitForSeconds(0.2f); // Duration before the flicker
+        List<Material> enemyMaterials = new List<Material>();
+
+        // Get MeshRenderer and SkinnedMeshRenderer components
+        MeshRenderer[] meshRenderers = GetComponentsInChildren<MeshRenderer>();
+        SkinnedMeshRenderer[] skinnedMeshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+
+        // Clone materials for both types of renderers
+        foreach (MeshRenderer renderer in meshRenderers)
+        {
+            Material[] newMaterials = renderer.materials;
+            renderer.materials = newMaterials; // Ensure unique instances
+            enemyMaterials.AddRange(newMaterials);
+        }
+
+        foreach (SkinnedMeshRenderer skinnedRenderer in skinnedMeshRenderers)
+        {
+            Material[] newMaterials = skinnedRenderer.materials;
+            skinnedRenderer.materials = newMaterials; // Ensure unique instances
+            enemyMaterials.AddRange(newMaterials);
+        }
+
+        // Change all materials to red
+        foreach (Material mat in enemyMaterials)
+        {
+            mat.color = Color.red;
+        }
+
+        yield return new WaitForSeconds(0.12f); // Flicker duration
+
+        // Reset colors back to their original
+        foreach (Material mat in enemyMaterials)
+        {
+            mat.color = Color.white; // Change back to original color if needed
+        }
+    }
+
+
 
 
 

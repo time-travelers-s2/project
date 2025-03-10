@@ -19,59 +19,69 @@ and some magic by Beranger
 public class knightController : MonoBehaviour, Character
 {
     [Header("Health")]
-    public int maxHealth;
-    public int currentHealth;
-    public int defaultDamage = 10;
+    [SerializeField] private int maxHealth;
+    [SerializeField] private int currentHealth;
+    private int CurrentHealth
+    {
+        get => currentHealth;
+        set
+        {
+            currentHealth = Mathf.Clamp(value, 0, maxHealth);
+            healthBar.setHealth(currentHealth);
+            if (currentHealth <= 0) isDead();
+        }
+    }
+
+    [SerializeField] private int defaultDamage = 10;
 
 
     [Header ("Movement")]
-    public float walkSpeed;
+    [SerializeField] private float walkSpeed;
     [Tooltip("Maximum player running speed")]
-    public float sprintSpeed;
+    [SerializeField] private float sprintSpeed;
     [Tooltip("Maximum player rolling speed")]
     private float moveSpeed;
     [Tooltip("Maximum player walking speed")]
-    public float rollSpeed;
+    [SerializeField] private float rollSpeed;
 
-    public float groundDrag;
+    [SerializeField] private float groundDrag;
     public bool canMove;
 
     [Header ("Jumping")]
-    public float jumpForce;
-    public float jumpCooldown;
-    public float airMultiplier;
-    private bool canJump;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float jumpCooldown;
+    [SerializeField] private float airMultiplier;
+    [SerializeField] private bool canJump;
 
     [Header("Keybinds")]
-    public KeyCode jumpKey = KeyCode.Space;
-    public KeyCode sprintKey = KeyCode.LeftShift;
-    public KeyCode rollKey = KeyCode.LeftAlt;
+    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
+    [SerializeField] private KeyCode rollKey = KeyCode.LeftAlt;
 
     [Header("Ground check")]
-    public LayerMask whatIsGround;
-    public float groundDistance;
+    [SerializeField] private LayerMask whatIsGround;
+    [SerializeField] private float groundDistance;
     public bool grounded;
 
     [Header("Slope Handling")]
-    public float maxSlopeAngle;
+    [SerializeField] private float maxSlopeAngle;
     private RaycastHit slopeHit;
     private bool exitSlope;
-    private Vector3 slopeMoveDirection;
 
     [Header("Rolling")]
-    public float dodgeForce;
-    public float dodgeDuration;
-    public float dodgeCoolDown;
+    [SerializeField] private float dodgeForce;
+    [SerializeField] private float dodgeDuration;
+    [SerializeField] private float dodgeCoolDown;
     private float dodgeTimer;
     private bool dodging;
 
 
     [Header("Other")]
-    public Transform orientation;
+    [SerializeField] private Transform orientation;
     private float horizontalInput;
     private float verticalInput;
-    public knightCamController kcc;
-    public HealthBarController healthBar;
+    [SerializeField] private knightCamController kcc;
+    [SerializeField] private HealthBarController healthBar;
     
     // Other
     private Vector3 moveDirection;
@@ -82,24 +92,24 @@ public class knightController : MonoBehaviour, Character
     private Animator animator;
     private string currentAnimation;
 
-    readonly string Idle = "Idle";
-    readonly string MoveForward = "Running_A";
-    readonly string MoveBackWard = "Walking_Backwards";
-    readonly string MoveLeft = "Running_Strafe_Left";
-    readonly string MoveRight = "Running_Strafe_Right";
-    readonly string JumpStart = "Jump_Start";
-    readonly string JumpAir = "Jump_Idle";
-    readonly string JumpEnd = "Jump_Land";
+    private readonly string Idle = "Idle";
+    private readonly string MoveForward = "Running_A";
+    private readonly string MoveBackWard = "Walking_Backwards";
+    private readonly string MoveLeft = "Running_Strafe_Left";
+    private readonly string MoveRight = "Running_Strafe_Right";
+    private readonly string JumpStart = "Jump_Start";
+    private readonly string JumpAir = "Jump_Idle";
+    private readonly string JumpEnd = "Jump_Land";
     public readonly string Attack1 = "1H_Melee_Attack_Slice_Diagonal";
-    public readonly string DodgeLeft = "Dodge_Left";
-    public readonly string DodgeRight = "Dodge_Right";
-    public readonly string DodgeForward = "Dodge_Forward";
-    public readonly string DodgeBackward = "Dodge_Backward";
-    public readonly string Death = "Death_A";
+    private readonly string DodgeLeft = "Dodge_Left";
+    private readonly string DodgeRight = "Dodge_Right";
+    private readonly string DodgeForward = "Dodge_Forward";
+    private readonly string DodgeBackward = "Dodge_Backward";
+    private readonly string Death = "Death_A";
     
     
-    public MovementState state;
-    public enum MovementState
+    private MovementState state;
+    private enum MovementState
     {
         Walking,
         Sprinting,
@@ -109,10 +119,8 @@ public class knightController : MonoBehaviour, Character
 
     private void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.setMaxHealth(maxHealth);
-        healthBar.setHealth(currentHealth);
-        Debug.Log("knight health: "+currentHealth);
+        CurrentHealth = maxHealth;
+        healthBar.setup(maxHealth, CurrentHealth);
 
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
@@ -121,14 +129,17 @@ public class knightController : MonoBehaviour, Character
 
         canMove = true;
         canJump = true;
+        dodging = false;
         Debug.Log("Script is running");
         ChangeAnimation(Idle);
     }
 
-    private void FixedUpdate() //Better for physics stuff
+    private void FixedUpdate()
     {
         grounded = Physics.CheckSphere(transform.position, groundDistance, whatIsGround);
+        Debug.Log(grounded);
     }
+
 
     private void DebugCode()
     {
@@ -144,17 +155,12 @@ public class knightController : MonoBehaviour, Character
         //Gizmos.DrawLine(transform.position + Vector3.up * 0.6f, orientation.forward + Vector3.up*0.5f);
     }
 
-
     private void Update()
     {
         //DebugCode();
         MyInput();
         SpeedCOntrol();
         StateHandler();
-        
-        slopeMoveDirection = Vector3.ProjectOnPlane(moveDirection, slopeHit.normal);
-        if(state == MovementState.Walking || state == MovementState.Sprinting) rb.linearDamping = groundDrag;
-        else rb.linearDamping = 0;
         
         if(canMove && !dodging) MovePlayer();
         CheckAnimation();
@@ -181,7 +187,6 @@ public class knightController : MonoBehaviour, Character
                 canJump = false;
                 ChangeAnimation(JumpStart);
                 Jump();
-                Invoke(nameof(ResetJump), jumpCooldown);
             }
 
             if(grounded && Input.GetKey(rollKey) && !dodging)
@@ -198,43 +203,64 @@ public class knightController : MonoBehaviour, Character
     }
 
     private void StateHandler()
-    {   
-        if(grounded && dodging)
+{
+    if (grounded)
+    {
+        state = dodging ? MovementState.Rolling :
+                Input.GetKey(sprintKey) ? MovementState.Sprinting :
+                MovementState.Walking;
+
+        moveSpeed = state switch
         {
-            state = MovementState.Rolling;
-            moveSpeed = rollSpeed;
-            
-        }
-        else if(grounded && Input.GetKey(sprintKey))
-        {
-            state = MovementState.Sprinting;
-            moveSpeed = sprintSpeed;
-        }
-        else if(grounded)
-        {
-            state = MovementState.Walking;
-            moveSpeed = walkSpeed;
-        }
-        else
-        {
-            state = MovementState.Air;
-        }
+            MovementState.Rolling => rollSpeed,
+            MovementState.Sprinting => sprintSpeed,
+            _ => walkSpeed
+        };
     }
+    else
+    {
+        state = MovementState.Air;
+    }
+}
+
 
     ////////////////////////
     // Movement
     private void MovePlayer()
     {
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-        if(onSlope() && grounded) 
-            rb.AddForce(GetSlopeMoveDirection().normalized * moveSpeed * 10f, ForceMode.Force);
-        else if(grounded) 
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-        else if(!grounded) 
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+        // Calculate movement direction
+        moveDirection = (orientation.forward * verticalInput + orientation.right * horizontalInput).normalized;
 
-        rb.useGravity = !onSlope();
+        // Adjust movement speed based on the state
+        float targetSpeed = moveSpeed;
+
+        if (onSlope() && grounded)
+        {
+            // Move along the slope without excessive sliding
+            Vector3 slopeDirection = GetSlopeMoveDirection().normalized;
+            rb.linearVelocity = new Vector3(slopeDirection.x * targetSpeed, rb.linearVelocity.y, slopeDirection.z * targetSpeed);
+        }
+        else if (grounded)
+        {
+            // Standard ground movement
+            Vector3 newVelocity = moveDirection * targetSpeed;
+            newVelocity.y = rb.linearVelocity.y; // Maintain Y velocity (gravity)
+            rb.linearVelocity = newVelocity;
+        }
+        else
+        {
+            // Air movement with reduced control
+            Vector3 newVelocity = moveDirection * targetSpeed * airMultiplier;
+            newVelocity.y = rb.linearVelocity.y; // Maintain Y velocity (gravity)
+            rb.linearVelocity = newVelocity;
+        }
+
+        // Apply linear damping to control sliding
+        rb.linearDamping = grounded ? groundDrag : 0;
     }
+
+
+
 
     private void SpeedCOntrol()
     {
@@ -262,16 +288,17 @@ public class knightController : MonoBehaviour, Character
 
     ////////////////////////
     // Jump
-    public void Jump()
+    private void Jump()
     {
         exitSlope = true;
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
-
-        rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        StartCoroutine(ResetJump());
     }
 
-    private void ResetJump()
+    private IEnumerator ResetJump()
     {
+        yield return new WaitForSeconds(jumpCooldown);
         exitSlope = false;
         canJump = true;
     }
@@ -280,10 +307,14 @@ public class knightController : MonoBehaviour, Character
     // Slope
     private bool onSlope()
     {
-        return Physics.Raycast(transform.position + Vector3.up, Vector3.down, out slopeHit, 0.6f) &&
-            slopeHit.normal != Vector3.up &&
-            Vector3.Angle(Vector3.up, slopeHit.normal) <= maxSlopeAngle;
+        if (Physics.Raycast(transform.position, Vector3.down, out slopeHit, groundDistance, whatIsGround))
+        {
+            float angle = Vector3.Angle(Vector3.up, slopeHit.normal);
+            return angle > 0 && angle <= maxSlopeAngle;
+        }
+        return false;
     }
+
 
 
     private Vector3 GetSlopeMoveDirection()
@@ -296,21 +327,22 @@ public class knightController : MonoBehaviour, Character
     // Roll
     private void Roll()
     {
-        if (dodgeTimer > 0) return; // Ensures no dodging if on cooldown
+        if (dodgeTimer > 0) return; 
         dodgeTimer = dodgeCoolDown;
-
         dodging = true;
+        
         RollAnimation();
-
         rb.AddForce(moveDirection * dodgeForce, ForceMode.Impulse);
-        Invoke(nameof(resetRoll), dodgeDuration);
+        
+        StartCoroutine(ResetRoll());
     }
 
-
-    private void resetRoll()
+    private IEnumerator ResetRoll()
     {
+        yield return new WaitForSeconds(dodgeDuration);
         dodging = false;
     }
+
 
     private void RollAnimation()
     {
@@ -327,32 +359,32 @@ public class knightController : MonoBehaviour, Character
     ////////////////////////
     // Animations
     private void CheckAnimation()
+{
+    if (currentAnimation == JumpStart || currentAnimation == JumpEnd || 
+        currentAnimation == Attack1 || currentAnimation == Death || dodging)
+        return;
+
+    if (currentAnimation == JumpAir && grounded)
     {
-        if(currentAnimation == JumpStart || currentAnimation == JumpEnd || currentAnimation == Attack1 ||
-        currentAnimation == DodgeForward || currentAnimation == DodgeBackward || currentAnimation == DodgeRight || currentAnimation == DodgeLeft ||
-        currentAnimation == Death)
-            return;
-
-        if(currentAnimation == JumpAir && grounded)
-        {
-            ChangeAnimation(JumpEnd);
-            return;
-        }
-
-        switch (verticalInput)
-        {
-            case 1: ChangeAnimation(MoveForward); break;
-            case -1: ChangeAnimation(MoveBackWard); break;
-            default:
-                switch (horizontalInput)
-                {
-                    case 1: ChangeAnimation(MoveRight); break;
-                    case -1: ChangeAnimation(MoveLeft); break;
-                    default: ChangeAnimation(Idle); break;
-                }
-                break;
-        }
+        ChangeAnimation(JumpEnd);
+        return;
     }
+
+    string newAnimation = verticalInput switch
+    {
+        1 => MoveForward,
+        -1 => MoveBackWard,
+        _ => horizontalInput switch
+        {
+            1 => MoveRight,
+            -1 => MoveLeft,
+            _ => Idle
+        }
+    };
+
+    ChangeAnimation(newAnimation);
+}
+
 
     public void ChangeAnimation(string animation, float crossfade = 0.2f, float time = 0f)
     {
@@ -387,9 +419,9 @@ public class knightController : MonoBehaviour, Character
     public void increaseMaxHealth(int diff)
     {
         maxHealth += diff;
-        currentHealth += diff;
+        CurrentHealth += diff;
         healthBar.setMaxHealth(maxHealth);
-        healthBar.setHealth(currentHealth);
+        healthBar.setHealth(CurrentHealth);
     }
 
     public void TakeDamage()
@@ -399,14 +431,8 @@ public class knightController : MonoBehaviour, Character
 
     public void TakeDamage(int damage)
     {
-        Debug.Log("knight taking "+damage+" damage");
-        currentHealth -= damage;
-        healthBar.setHealth(currentHealth);
-        Debug.Log("knight health: "+currentHealth);
-        if(currentHealth <= 0)
-        {
-            isDead();
-        }
+        CurrentHealth -= damage;
+        healthBar.setHealth(CurrentHealth);
     }
 
     public void isDead()
