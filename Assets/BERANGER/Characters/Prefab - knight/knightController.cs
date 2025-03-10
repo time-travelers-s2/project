@@ -137,7 +137,7 @@ public class knightController : MonoBehaviour, Character
     private void FixedUpdate()
     {
         grounded = Physics.CheckSphere(transform.position, groundDistance, whatIsGround);
-        Debug.Log(grounded);
+        //Debug.Log(grounded);
     }
 
 
